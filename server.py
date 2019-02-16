@@ -21,8 +21,14 @@ Developed with Python and Flask-RESTful.
 
 How to use:
 
-Start environment: source venv/bin/activate
-Start sever with: python server.py
+To start environment, execute following commands in Project's folder:
+
+    - virtualenv env
+    - source venv/bin/activate
+
+Start server with command: python server.py
+
+Uses:
 
 - POST / -> Upload the file to the server
     sudo curl http://localhost:8001/ -X POST -F "file=@path_of_your_file"
